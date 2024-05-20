@@ -7,16 +7,16 @@ This microservice provides an auto-generated password based on the parameters en
 - Download the program and verify that the program is running on the same server as your main program
 - Run the program
 
-# Example Request Code (Python)
+## Example Request Code (Python)
 
 There is a given function located in the 'testReq.py' file. The req_message() function can be copied in order to implement it.
 Once copied, requests for passwords can be made like so:
 
 '''python
 req_message(length, uppercase, lowercase, numbers, special)
+'''
 
-
-# Receiving Data
+## Receiving Data
 
 The provided function also receives the password, so data can be received by simply assigning it to a variable, or any other way.
 

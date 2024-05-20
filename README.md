@@ -11,7 +11,7 @@ This microservice provides an auto-generated password based on the parameters en
 
 ### Example Request Code (Python)
 
-There is a given function located in the 'testReq.py' file. The req_message() function can be copied in order to implement it.
+There is a given function located in the [Example File](testReq.py) file. The req_message() function can be copied in order to implement it.
 Once copied, requests for passwords can be made like so:
 
 ```python

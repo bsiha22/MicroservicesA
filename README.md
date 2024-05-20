@@ -25,3 +25,7 @@ The provided function also receives the password, so data can be received by sim
 ```python
 password = req_message(length, uppercase, lowercase, numbers, special)
 ```
+
+## Sequence Diagram of REQ/REP process
+
+![image](https://github.com/bsiha22/MicroservicesA/assets/138067427/e7759446-8c08-4290-bcfc-8e56b1d240c5)

@@ -49,7 +49,6 @@ def gen_encode_pass(param):
     password = generate_password(param)
     print(f"Preencoded password: {password}")
     encode = password_encode(password)
-    print(f"Sending encoded password: {encode}")
     return encode
 
 def rec_message():

@@ -49,6 +49,7 @@ def gen_encode_pass(param):
     password = generate_password(param)
     print(f"Preencoded password: {password}")
     encode = password_encode(password)
+    print(f"Sending encoded password: {encode}")
     return encode
 
 def rec_message():
@@ -58,7 +59,7 @@ def rec_message():
 
     while True:
 
-        message = socket.recv.json()
+        message = socket.recv_json()
 
         try:
             params = (
@@ -75,8 +76,5 @@ def rec_message():
 
         socket.send_json(response)
 
-
-for i in range(1,6):
-    passw = (10, 2, 3, 2, 3)
-    passwords = gen_encode_pass(passw)
-    print(f"Encoded password {i}: {passwords}")
+if __name__ == "__main__":
+    rec_message()

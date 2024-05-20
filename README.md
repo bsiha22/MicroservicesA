@@ -5,7 +5,7 @@ This microservice provides an auto-generated password based on the parameters en
 ## How to Use
 
 - Download the program and verify that the program is running on the same server as your main program
-- Run the program
+- Run the program (microA.py)
 
 ## Communication Contract
 
